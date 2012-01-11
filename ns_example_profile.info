@@ -1,0 +1,29 @@
+
+name = NodeStream Example profile
+description = An example profile that shows how to extend NodeStream.
+core = 7.x
+theme = bartik
+
+; NS Core is a module that contains the upgrade path for all NodeStream
+; sites and some other goodies that is required for NodeStream to work.
+; We use a module instead of a profile, since it we can make NodeStream
+; features profile independent.
+dependencies[] = ns_core
+
+; Core
+dependencies[] = menu
+dependencies[] = dblog
+dependencies[] = help
+dependencies[] = menu
+dependencies[] = taxonomy
+
+; Contrib
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+dependencies[] = taxonomy_menu_form
+
+; NodeStream features. We can pick which features we want to use,
+; no NodeStream features are required.
+dependencies[] = ns_ch_web
+
+
