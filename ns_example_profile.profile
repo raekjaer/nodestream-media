@@ -24,6 +24,14 @@ function ns_example_profile_install_tasks(&$install_state) {
 }
 
 /**
+ * Implements hook_defaultconfig_site_install().
+ */
+function ns_example_profile_defaultconfig_site_install() {
+  // We want to handle installation of configuration ourselves.
+  return FALSE;
+}
+
+/**
  * Apply configuration for default config.
  */
 function ns_example_profile_finish() {
