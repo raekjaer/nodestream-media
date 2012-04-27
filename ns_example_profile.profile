@@ -3,3 +3,42 @@
  * @file
  * Example profile file.
  */
+
+/**
+ * Implements hook_install_tasks().
+ * NodeStream uses default config, which requires an install task
+ * to install default components in the end of the process.
+ * This is necessary since a lot of components needs
+ * to have everything in place before import can be run safely.
+ */
+function ns_example_profile_install_tasks(&$install_state) {
+  // Indicate to default config that we want to handle this ourselves.
+  variable_get('defaultconfig_site_install', FALSE);
+  return array(
+    'ns_example_profile_finish' => array(
+      'display_name' => st('Apply configuration'),
+      'display' => TRUE,
+      'type' => 'batch',
+    ),
+  );
+}
+
+/**
+ * Apply configuration for default config.
+ */
+function ns_example_profile_finish() {
+  module_list(TRUE);
+  drupal_flush_all_caches();
+  // Rebuild default components.
+  if (module_exists('defaultconfig')) {
+    drupal_flush_all_caches();
+    module_list(TRUE);
+    return defaultconfig_rebuild_batch_defintion(
+      st('Apply configuration'),
+      st('The installation encountered an error')
+    );
+  }
+  // Remove the variable as it's no longer necessary.
+  variable_del('defaultconfig_site_install');
+  return array();
+}

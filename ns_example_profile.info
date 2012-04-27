@@ -24,6 +24,7 @@ dependencies[] = taxonomy_menu_form
 
 ; NodeStream features. We can pick which features we want to use,
 ; no NodeStream features are required.
-dependencies[] = ns_ch_web
+dependencies[] = ns_article
+dependencies[] = ns_fact
 
 
