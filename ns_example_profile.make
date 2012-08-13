@@ -11,3 +11,6 @@ projects[ns_prod_enterprise][type] = module
 projects[ns_prod_enterprise][version] = 2.x-dev
 projects[ns_prod_enterprise][download][type] = git
 projects[ns_prod_enterprise][download][branch] = master
+
+projects[defaultcontent][version] = 1.0-alpha3
+projects[defaultcontent][subdir] = contrib
