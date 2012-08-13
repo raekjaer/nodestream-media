@@ -12,5 +12,7 @@ projects[ns_prod_enterprise][version] = 2.x-dev
 projects[ns_prod_enterprise][download][type] = git
 projects[ns_prod_enterprise][download][branch] = master
 
-projects[defaultcontent][version] = 1.0-alpha3
-projects[defaultcontent][subdir] = contrib
+projects[defaultcontent][type] = module
+projects[defaultcontent][version] = 1.x-dev
+projects[defaultcontent][download][type] = git
+projects[defaultcontent][download][revision] = d8806d8
