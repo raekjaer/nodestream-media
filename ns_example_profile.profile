@@ -20,6 +20,11 @@ function ns_example_profile_install_tasks(&$install_state) {
       'display' => TRUE,
       'type' => 'batch',
     ),
+    'ns_example_profile_import_content' => array(
+      'display_name' => st('Import content'),
+      'display' => TRUE,
+      'type' => 'batch',
+    ),
   );
 }
 
@@ -35,8 +40,6 @@ function ns_example_profile_defaultconfig_site_install() {
  * Apply configuration for default config.
  */
 function ns_example_profile_finish() {
-  module_list(TRUE);
-  drupal_flush_all_caches();
   // Rebuild default components.
   if (module_exists('defaultconfig')) {
     drupal_flush_all_caches();
@@ -49,4 +52,29 @@ function ns_example_profile_finish() {
   // Remove the variable as it's no longer necessary.
   variable_del('defaultconfig_site_install');
   return array();
+}
+
+/**
+ * Import content with the configdump module.
+ */
+function ns_example_profile_import_content() {
+  return configdump_tables_batch_definition('php',
+    st('Import content'),
+    st('The installation encountered an error')
+  );
+}
+
+/**
+ * Implements hook_configdump_content_tables()
+ */
+function ns_example_profile_configdump_content_tables() {
+  return array(
+    'panelizer_entity' => 'panelizer_entity',
+    'panels_display' => 'panels_display',
+    'panels_pane' => 'panels_pane',
+    'panelizer_defaults' => 'panelizer_defaults',
+    'webform' => 'webform',
+    'webform_component' => 'webform_component',
+    'webform_emails' => 'webform_emails',
+  );
 }

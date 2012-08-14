@@ -21,7 +21,7 @@ dependencies[] = taxonomy
 dependencies[] = admin_menu
 dependencies[] = admin_menu_toolbar
 dependencies[] = taxonomy_menu_form
-
+dependencies[] = configdump
 
 dependencies[] = ns_prod_enterprise
 dependencies[] = ns_prod_enterprise_office
