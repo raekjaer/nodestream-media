@@ -34,6 +34,70 @@ function configdump_table_panels_display() {
         'hide_title' => '0',
         'title_pane' => '0',
       ),
+      1 => (object) array(
+        'did' => '2',
+        'layout' => 'ns_core_column_two',
+        'layout_settings' => array(),
+        'panel_settings' => array(
+          'style_settings' => array(
+            'center' => NULL,
+            'header_alpha' => array(),
+            'main' => array(),
+            'aside_beta' => array(),
+            'footer_alpha' => array(),
+            'default' => NULL,
+          ),
+          'style' => 'naked',
+          'header_alpha' => array(
+            'style' => 'semantic_panels',
+          ),
+          'main' => array(
+            'style' => 'semantic_panels',
+          ),
+          'aside_beta' => array(
+            'style' => 'semantic_panels',
+          ),
+          'footer_alpha' => array(
+            'style' => 'semantic_panels',
+          ),
+        ),
+        'cache' => array(),
+        'title' => '',
+        'hide_title' => '0',
+        'title_pane' => '0',
+      ),
+      2 => (object) array(
+        'did' => '3',
+        'layout' => 'ns_core_column_two',
+        'layout_settings' => array(),
+        'panel_settings' => array(
+          'style_settings' => array(
+            'center' => NULL,
+            'header_alpha' => array(),
+            'main' => array(),
+            'aside_beta' => array(),
+            'footer_alpha' => array(),
+            'default' => NULL,
+          ),
+          'style' => 'naked',
+          'header_alpha' => array(
+            'style' => 'semantic_panels',
+          ),
+          'main' => array(
+            'style' => 'semantic_panels',
+          ),
+          'aside_beta' => array(
+            'style' => 'semantic_panels',
+          ),
+          'footer_alpha' => array(
+            'style' => 'semantic_panels',
+          ),
+        ),
+        'cache' => array(),
+        'title' => '',
+        'hide_title' => '0',
+        'title_pane' => '0',
+      ),
     ),
     'serialized_cols' => array(
       'layout_settings' => 'layout_settings',

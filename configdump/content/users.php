@@ -29,7 +29,7 @@ function configdump_table_users() {
         'signature' => '',
         'signature_format' => NULL,
         'created' => '1344946283',
-        'access' => '1344951209',
+        'access' => '1344952267',
         'login' => '1344949451',
         'status' => '1',
         'timezone' => 'Europe/Berlin',
