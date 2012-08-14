@@ -1,0 +1,63 @@
+<?php
+function configdump_table_panelizer_entity() {
+  return array(
+    'data' => array(
+      0 => (object) array(
+        'entity_type' => 'node',
+        'entity_id' => '1',
+        'revision_id' => '1',
+        'name' => NULL,
+        'no_blocks' => '0',
+        'css_id' => '',
+        'css' => '',
+        'pipeline' => 'ipe',
+        'contexts' => array(),
+        'relationships' => array(),
+        'did' => '1',
+      ),
+      1 => (object) array(
+        'entity_type' => 'node',
+        'entity_id' => '1',
+        'revision_id' => '2',
+        'name' => NULL,
+        'no_blocks' => '0',
+        'css_id' => '',
+        'css' => '',
+        'pipeline' => 'ipe',
+        'contexts' => array(),
+        'relationships' => array(),
+        'did' => '1',
+      ),
+      2 => (object) array(
+        'entity_type' => 'node',
+        'entity_id' => '1',
+        'revision_id' => '6',
+        'name' => NULL,
+        'no_blocks' => '0',
+        'css_id' => '',
+        'css' => '',
+        'pipeline' => 'ipe',
+        'contexts' => array(),
+        'relationships' => array(),
+        'did' => '1',
+      ),
+      3 => (object) array(
+        'entity_type' => 'node',
+        'entity_id' => '2',
+        'revision_id' => '4',
+        'name' => 'node:ns_prod_enterprise_section:default',
+        'no_blocks' => '0',
+        'css_id' => '',
+        'css' => '',
+        'pipeline' => 'ipe',
+        'contexts' => array(),
+        'relationships' => array(),
+        'did' => '0',
+      ),
+    ),
+    'serialized_cols' => array(
+      'contexts' => 'contexts',
+      'relationships' => 'relationships',
+    ),
+  );
+}
