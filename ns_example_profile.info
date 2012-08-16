@@ -23,9 +23,14 @@ dependencies[] = admin_menu_toolbar
 dependencies[] = taxonomy_menu_form
 dependencies[] = configdump
 
+; NodeStream things
 dependencies[] = ns_prod_enterprise
 dependencies[] = ns_prod_enterprise_office
 dependencies[] = ns_prod_enterprise_user
 dependencies[] = ns_prod_enterprise_client
 dependencies[] = ns_prod_enterprise_blog
 dependencies[] = ns_prod_enterprise_office_map
+dependencies[] = ns_markdown
+dependencies[] = ns_example_profile_settings
+dependencies[] = ns_field_translation
+dependencies[] = ns_prod_enterprise_service

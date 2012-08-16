@@ -25,6 +25,11 @@ function ns_example_profile_install_tasks(&$install_state) {
       'display' => TRUE,
       'type' => 'batch',
     ),
+    'ns_example_profile_import_files' => array(
+      'display_name' => st('Import files'),
+      'display' => TRUE,
+      'type' => 'batch',
+    ),
   );
 }
 
@@ -58,8 +63,18 @@ function ns_example_profile_finish() {
  * Import content with the configdump module.
  */
 function ns_example_profile_import_content() {
-  return configdump_tables_batch_definition('php',
+  return configdump_content_tables_batch_definition('php',
     st('Import content'),
+    st('The installation encountered an error')
+  );
+}
+
+/**
+ * Import files with the configdump module.
+ */
+function ns_example_profile_import_files() {
+  return configdump_files_batch_definition('php',
+    st('Import files'),
     st('The installation encountered an error')
   );
 }
