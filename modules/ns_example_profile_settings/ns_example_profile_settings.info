@@ -1,0 +1,17 @@
+name = ns_example_profile_settings
+description = Some settings for the example profile
+core = 7.x
+package = Features
+php = 5.2.4
+dependencies[] = ctools
+dependencies[] = defaultconfig
+dependencies[] = strongarm
+features[ctools][] = defaultconfig:defaultconfig_optionals_settings:1
+features[ctools][] = strongarm:strongarm:1
+features[defaultconfig_optionals][] = field_default_fields:node-ns_page-field_ns_page_attach_files
+features[defaultconfig_optionals][] = field_default_fields:node-ns_page-field_ns_page_lead
+features[defaultconfig_optionals][] = field_default_fields:node-ns_page-field_ns_page_link_list
+features[defaultconfig_optionals][] = field_default_fields:node-ns_prod_enterprise_section-field_ns_prod_entrpr_body
+features[features_api][] = api:1
+features[variable][] = site_frontpage
+features[variable][] = theme_lucid_settings
