@@ -64,20 +64,20 @@ function ns_example_profile_finish() {
 }
 
 /**
- * Import content with the configdump module.
+ * Import content with the dumpling module.
  */
 function ns_example_profile_import_content() {
-  return configdump_content_tables_batch_definition('php',
+  return dumpling_content_tables_batch_definition('php',
     st('Import content'),
     st('The installation encountered an error')
   );
 }
 
 /**
- * Import files with the configdump module.
+ * Import files with the dumpling module.
  */
 function ns_example_profile_import_files() {
-  return configdump_files_batch_definition('php',
+  return dumpling_files_batch_definition('php',
     st('Import files'),
     st('The installation encountered an error')
   );
@@ -91,9 +91,9 @@ function ns_example_profile_post_enable() {
 }
 
 /**
- * Implements hook_configdump_content_tables()
+ * Implements hook_dumpling_content_tables()
  */
-function ns_example_profile_configdump_content_tables() {
+function ns_example_profile_dumpling_content_tables() {
   return array(
     'panelizer_entity' => 'panelizer_entity',
     'panels_display' => 'panels_display',
@@ -106,10 +106,10 @@ function ns_example_profile_configdump_content_tables() {
 }
 
 /**
- * Implements hook_configdump_content_tables_alter().
+ * Implements hook_dumpling_content_tables_alter().
  * Let's exclude the user tables, it screws up the installation process.
  */
-function ns_example_profile_configdump_content_tables_alter(&$tables) {
+function ns_example_profile_dumpling_content_tables_alter(&$tables) {
   unset($tables['users']);
   unset($tables['users_roles']);
 }
