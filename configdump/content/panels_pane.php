@@ -719,66 +719,6 @@ function configdump_table_panels_pane() {
         'locks' => array(),
       ),
       20 => (object) array(
-        'pid' => '38',
-        'did' => '7',
-        'panel' => 'footer_alpha',
-        'type' => 'entity_field',
-        'subtype' => 'node:field_ns_prod_entrpr_promo',
-        'shown' => '1',
-        'access' => array(),
-        'configuration' => array(
-          'label' => 'hidden',
-          'formatter' => 'panels_ref_ref_formatter_mini',
-          'delta_limit' => '0',
-          'delta_offset' => '0',
-          'delta_reversed' => 0,
-          'formatter_settings' => array(
-            'mini_panel' => 'ns_prod_entrpr_promo',
-            'language_filter' => 1,
-            'cols' => '3',
-          ),
-          'context' => 'panelizer',
-          'override_title' => 0,
-          'override_title_text' => '',
-          'rewrite_panes' => array(
-            'machine_name' => 'entity_field',
-            'exclude' => 0,
-            'alter' => array(
-              'alter_text' => 0,
-              'text' => '',
-              'make_link' => 0,
-              'path' => '',
-            ),
-          ),
-        ),
-        'cache' => array(),
-        'style' => array(
-          'settings' => array(
-            'element_title' => array(
-              'type' => '',
-              'class_enable' => 0,
-              'class' => '',
-            ),
-            'element_content' => array(
-              'type' => 'div',
-              'class_enable' => 1,
-              'class' => 'thumbnails',
-            ),
-            'element_wrapper' => array(
-              'type' => '',
-              'class_enable' => 0,
-              'class' => '',
-            ),
-            'add_default_classes' => 0,
-          ),
-          'style' => 'semantic_panels',
-        ),
-        'css' => array(),
-        'extras' => array(),
-        'position' => '0',
-        'locks' => array(),
-      ),
-      21 => (object) array(
         'pid' => '39',
         'did' => '3',
         'panel' => 'main',
@@ -797,7 +737,7 @@ function configdump_table_panels_pane() {
         'position' => '1',
         'locks' => array(),
       ),
-      22 => (object) array(
+      21 => (object) array(
         'pid' => '40',
         'did' => '8',
         'panel' => 'branding',
@@ -831,7 +771,7 @@ function configdump_table_panels_pane() {
         'position' => '0',
         'locks' => '',
       ),
-      23 => (object) array(
+      22 => (object) array(
         'pid' => '41',
         'did' => '8',
         'panel' => 'branding_left',
@@ -849,7 +789,7 @@ function configdump_table_panels_pane() {
         'position' => '0',
         'locks' => array(),
       ),
-      24 => (object) array(
+      23 => (object) array(
         'pid' => '42',
         'did' => '8',
         'panel' => 'branding_right',
@@ -871,7 +811,7 @@ function configdump_table_panels_pane() {
         'position' => '0',
         'locks' => array(),
       ),
-      25 => (object) array(
+      24 => (object) array(
         'pid' => '43',
         'did' => '8',
         'panel' => 'footer',
@@ -901,7 +841,7 @@ function configdump_table_panels_pane() {
         'position' => '0',
         'locks' => array(),
       ),
-      26 => (object) array(
+      25 => (object) array(
         'pid' => '44',
         'did' => '8',
         'panel' => 'footer',
@@ -931,7 +871,7 @@ function configdump_table_panels_pane() {
         'position' => '1',
         'locks' => array(),
       ),
-      27 => (object) array(
+      26 => (object) array(
         'pid' => '45',
         'did' => '8',
         'panel' => 'footer',
@@ -949,7 +889,7 @@ function configdump_table_panels_pane() {
         'position' => '2',
         'locks' => array(),
       ),
-      28 => (object) array(
+      27 => (object) array(
         'pid' => '46',
         'did' => '8',
         'panel' => 'main',
@@ -985,7 +925,7 @@ function configdump_table_panels_pane() {
         'position' => '0',
         'locks' => '',
       ),
-      29 => (object) array(
+      28 => (object) array(
         'pid' => '47',
         'did' => '8',
         'panel' => 'main',
@@ -1021,7 +961,7 @@ function configdump_table_panels_pane() {
         'position' => '1',
         'locks' => '',
       ),
-      30 => (object) array(
+      29 => (object) array(
         'pid' => '48',
         'did' => '8',
         'panel' => 'nav',
@@ -1057,7 +997,7 @@ function configdump_table_panels_pane() {
         'position' => '0',
         'locks' => '',
       ),
-      31 => (object) array(
+      30 => (object) array(
         'pid' => '49',
         'did' => '8',
         'panel' => 'nav',
@@ -1075,7 +1015,7 @@ function configdump_table_panels_pane() {
         'position' => '1',
         'locks' => '',
       ),
-      32 => (object) array(
+      31 => (object) array(
         'pid' => '50',
         'did' => '8',
         'panel' => 'nav',
@@ -1093,7 +1033,7 @@ function configdump_table_panels_pane() {
         'position' => '2',
         'locks' => '',
       ),
-      33 => (object) array(
+      32 => (object) array(
         'pid' => '51',
         'did' => '9',
         'panel' => 'header_alpha',
@@ -1117,7 +1057,7 @@ function configdump_table_panels_pane() {
         'position' => '0',
         'locks' => array(),
       ),
-      34 => (object) array(
+      33 => (object) array(
         'pid' => '52',
         'did' => '9',
         'panel' => 'header_alpha',
@@ -1146,7 +1086,7 @@ function configdump_table_panels_pane() {
         'position' => '1',
         'locks' => array(),
       ),
-      35 => (object) array(
+      34 => (object) array(
         'pid' => '53',
         'did' => '9',
         'panel' => 'header_alpha',
@@ -1176,7 +1116,7 @@ function configdump_table_panels_pane() {
         'position' => '2',
         'locks' => array(),
       ),
-      36 => (object) array(
+      35 => (object) array(
         'pid' => '56',
         'did' => '9',
         'panel' => 'footer_alpha',
@@ -1231,152 +1171,6 @@ function configdump_table_panels_pane() {
           ),
           'style' => 'semantic_panels',
         ),
-        'css' => array(),
-        'extras' => array(),
-        'position' => '0',
-        'locks' => array(),
-      ),
-      37 => (object) array(
-        'pid' => '62',
-        'did' => '10',
-        'panel' => 'footer_alpha',
-        'type' => 'entity_field',
-        'subtype' => 'node:field_ns_prod_entrpr_promo',
-        'shown' => '1',
-        'access' => array(),
-        'configuration' => array(
-          'label' => 'hidden',
-          'formatter' => 'panels_ref_ref_formatter_mini',
-          'delta_limit' => '0',
-          'delta_offset' => '0',
-          'delta_reversed' => 0,
-          'formatter_settings' => array(
-            'mini_panel' => 'ns_prod_entrpr_promo',
-            'language_filter' => 1,
-            'cols' => '3',
-          ),
-          'context' => 'panelizer',
-          'override_title' => 0,
-          'override_title_text' => '',
-          'rewrite_panes' => array(
-            'machine_name' => 'entity_field',
-            'exclude' => 0,
-            'alter' => array(
-              'alter_text' => 0,
-              'text' => '',
-              'make_link' => 0,
-              'path' => '',
-            ),
-          ),
-        ),
-        'cache' => array(),
-        'style' => array(
-          'settings' => array(
-            'element_title' => array(
-              'type' => '',
-              'class_enable' => 0,
-              'class' => '',
-            ),
-            'element_content' => array(
-              'type' => 'div',
-              'class_enable' => 1,
-              'class' => 'thumbnails',
-            ),
-            'element_wrapper' => array(
-              'type' => '',
-              'class_enable' => 0,
-              'class' => '',
-            ),
-            'add_default_classes' => 0,
-          ),
-          'style' => 'semantic_panels',
-        ),
-        'css' => array(),
-        'extras' => array(),
-        'position' => '0',
-        'locks' => array(),
-      ),
-      38 => (object) array(
-        'pid' => '63',
-        'did' => '10',
-        'panel' => 'main',
-        'type' => 'views_panes',
-        'subtype' => 'ns_prod_enterprise_users-panel_pane_1',
-        'shown' => '1',
-        'access' => array(),
-        'configuration' => array(
-          'items_per_page' => '20',
-          'offset' => '0',
-          'fields_override' => array(
-            'field_ns_prod_entrpr_media' => 1,
-            'name' => 1,
-            'field_ns_prod_entrpr_office' => 1,
-            'field_ns_prod_entrpr_position' => 1,
-          ),
-          'exposed' => array(
-            'rid' => array(
-              10 => '10',
-            ),
-          ),
-          'context' => array(
-            0 => 'empty',
-          ),
-          'override_title' => 1,
-          'override_title_text' => '',
-        ),
-        'cache' => array(),
-        'style' => array(),
-        'css' => array(),
-        'extras' => array(),
-        'position' => '0',
-        'locks' => array(),
-      ),
-      39 => (object) array(
-        'pid' => '64',
-        'did' => '10',
-        'panel' => 'header_alpha',
-        'type' => 'entity_field',
-        'subtype' => 'node:field_ns_prod_entrpr_lead',
-        'shown' => '1',
-        'access' => array(),
-        'configuration' => array(
-          'label' => 'hidden',
-          'formatter' => 'text_default',
-          'delta_limit' => 0,
-          'delta_offset' => '0',
-          'delta_reversed' => FALSE,
-          'formatter_settings' => array(),
-          'context' => 'panelizer',
-          'override_title' => 0,
-          'override_title_text' => '',
-        ),
-        'cache' => array(),
-        'style' => array(
-          'settings' => NULL,
-          'style' => 'highlighted',
-        ),
-        'css' => array(),
-        'extras' => array(),
-        'position' => '1',
-        'locks' => array(),
-      ),
-      40 => (object) array(
-        'pid' => '65',
-        'did' => '10',
-        'panel' => 'header_alpha',
-        'type' => 'page_title',
-        'subtype' => 'page_title',
-        'shown' => '1',
-        'access' => array(),
-        'configuration' => array(
-          'markup' => 'h1',
-          'class' => '',
-          'id' => '',
-          'override_title' => 0,
-          'override_title_text' => '',
-        ),
-        'cache' => array(),
-        'style' => array(),
         'css' => array(),
         'extras' => array(),
         'position' => '0',

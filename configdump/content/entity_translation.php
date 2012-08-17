@@ -301,17 +301,6 @@ function configdump_table_entity_translation() {
       ),
       27 => (object) array(
         'entity_type' => 'node',
-        'entity_id' => '20',
-        'language' => 'en',
-        'source' => '',
-        'uid' => '1',
-        'status' => '1',
-        'translate' => '0',
-        'created' => '1345043700',
-        'changed' => '1345043700',
-      ),
-      28 => (object) array(
-        'entity_type' => 'node',
         'entity_id' => '21',
         'language' => 'und',
         'source' => '',
@@ -321,7 +310,7 @@ function configdump_table_entity_translation() {
         'created' => '1345045428',
         'changed' => '1345045428',
       ),
-      29 => (object) array(
+      28 => (object) array(
         'entity_type' => 'node',
         'entity_id' => '22',
         'language' => 'und',
@@ -332,7 +321,7 @@ function configdump_table_entity_translation() {
         'created' => '1345045501',
         'changed' => '1345045501',
       ),
-      30 => (object) array(
+      29 => (object) array(
         'entity_type' => 'node',
         'entity_id' => '23',
         'language' => 'und',
@@ -343,7 +332,7 @@ function configdump_table_entity_translation() {
         'created' => '1345045646',
         'changed' => '1345045646',
       ),
-      31 => (object) array(
+      30 => (object) array(
         'entity_type' => 'node',
         'entity_id' => '24',
         'language' => 'en',
@@ -354,18 +343,7 @@ function configdump_table_entity_translation() {
         'created' => '1345045694',
         'changed' => '1345045694',
       ),
-      32 => (object) array(
-        'entity_type' => 'node',
-        'entity_id' => '25',
-        'language' => 'en',
-        'source' => '',
-        'uid' => '1',
-        'status' => '1',
-        'translate' => '0',
-        'created' => '1345046614',
-        'changed' => '1345046614',
-      ),
-      33 => (object) array(
+      31 => (object) array(
         'entity_type' => 'taxonomy_term',
         'entity_id' => '1',
         'language' => 'en',
@@ -376,7 +354,7 @@ function configdump_table_entity_translation() {
         'created' => '1345034528',
         'changed' => '1345034528',
       ),
-      34 => (object) array(
+      32 => (object) array(
         'entity_type' => 'taxonomy_term',
         'entity_id' => '2',
         'language' => 'en',

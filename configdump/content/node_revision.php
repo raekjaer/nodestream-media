@@ -567,18 +567,6 @@ function configdump_table_node_revision() {
         'sticky' => '0',
       ),
       47 => (object) array(
-        'nid' => '20',
-        'vid' => '48',
-        'uid' => '1',
-        'title' => 'Contact',
-        'log' => '',
-        'timestamp' => '1345043776',
-        'status' => '1',
-        'comment' => '0',
-        'promote' => '0',
-        'sticky' => '0',
-      ),
-      48 => (object) array(
         'nid' => '7',
         'vid' => '49',
         'uid' => '1',
@@ -590,7 +578,7 @@ function configdump_table_node_revision() {
         'promote' => '0',
         'sticky' => '0',
       ),
-      49 => (object) array(
+      48 => (object) array(
         'nid' => '21',
         'vid' => '50',
         'uid' => '1',
@@ -602,7 +590,7 @@ function configdump_table_node_revision() {
         'promote' => '0',
         'sticky' => '0',
       ),
-      50 => (object) array(
+      49 => (object) array(
         'nid' => '22',
         'vid' => '51',
         'uid' => '1',
@@ -614,7 +602,7 @@ function configdump_table_node_revision() {
         'promote' => '0',
         'sticky' => '0',
       ),
-      51 => (object) array(
+      50 => (object) array(
         'nid' => '23',
         'vid' => '52',
         'uid' => '1',
@@ -626,7 +614,7 @@ function configdump_table_node_revision() {
         'promote' => '0',
         'sticky' => '0',
       ),
-      52 => (object) array(
+      51 => (object) array(
         'nid' => '24',
         'vid' => '53',
         'uid' => '1',
@@ -638,7 +626,7 @@ function configdump_table_node_revision() {
         'promote' => '0',
         'sticky' => '0',
       ),
-      53 => (object) array(
+      52 => (object) array(
         'nid' => '24',
         'vid' => '54',
         'uid' => '1',
@@ -650,7 +638,7 @@ function configdump_table_node_revision() {
         'promote' => '0',
         'sticky' => '0',
       ),
-      54 => (object) array(
+      53 => (object) array(
         'nid' => '7',
         'vid' => '55',
         'uid' => '1',
@@ -662,31 +650,7 @@ function configdump_table_node_revision() {
         'promote' => '0',
         'sticky' => '0',
       ),
-      55 => (object) array(
-        'nid' => '25',
-        'vid' => '56',
-        'uid' => '1',
-        'title' => 'People',
-        'log' => '',
-        'timestamp' => '1345046674',
-        'status' => '1',
-        'comment' => '0',
-        'promote' => '0',
-        'sticky' => '0',
-      ),
-      56 => (object) array(
-        'nid' => '25',
-        'vid' => '57',
-        'uid' => '1',
-        'title' => 'People',
-        'log' => '',
-        'timestamp' => '1345047127',
-        'status' => '1',
-        'comment' => '0',
-        'promote' => '0',
-        'sticky' => '0',
-      ),
-      57 => (object) array(
+      54 => (object) array(
         'nid' => '3',
         'vid' => '58',
         'uid' => '1',
@@ -698,7 +662,7 @@ function configdump_table_node_revision() {
         'promote' => '0',
         'sticky' => '0',
       ),
-      58 => (object) array(
+      55 => (object) array(
         'nid' => '1',
         'vid' => '59',
         'uid' => '1',
@@ -710,7 +674,7 @@ function configdump_table_node_revision() {
         'promote' => '0',
         'sticky' => '0',
       ),
-      59 => (object) array(
+      56 => (object) array(
         'nid' => '13',
         'vid' => '60',
         'uid' => '1',
@@ -722,7 +686,7 @@ function configdump_table_node_revision() {
         'promote' => '0',
         'sticky' => '0',
       ),
-      60 => (object) array(
+      57 => (object) array(
         'nid' => '13',
         'vid' => '61',
         'uid' => '1',

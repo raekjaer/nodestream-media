@@ -81,17 +81,6 @@ function configdump_table_field_data_field_ns_prod_entrpr_lead() {
       ),
       7 => (object) array(
         'entity_type' => 'node',
-        'bundle' => 'ns_prod_enterprise_section',
-        'deleted' => '0',
-        'entity_id' => '20',
-        'revision_id' => '48',
-        'language' => 'en',
-        'delta' => '0',
-        'field_ns_prod_entrpr_lead_value' => 'Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst. Mauris viverra sem imperdiet neque varius sed egestas quam dapibus. Nullam est augue, accumsan accumsan molestie ut, suscipit ac odio. Proin tincidunt accumsan leo, eu congue diam metus.',
-        'field_ns_prod_entrpr_lead_format' => NULL,
-      ),
-      8 => (object) array(
-        'entity_type' => 'node',
         'bundle' => 'ns_prod_enterprise_service',
         'deleted' => '0',
         'entity_id' => '21',
@@ -101,7 +90,7 @@ function configdump_table_field_data_field_ns_prod_entrpr_lead() {
         'field_ns_prod_entrpr_lead_value' => 'We love Drupal. We can share the love with you!',
         'field_ns_prod_entrpr_lead_format' => NULL,
       ),
-      9 => (object) array(
+      8 => (object) array(
         'entity_type' => 'node',
         'bundle' => 'ns_prod_enterprise_service',
         'deleted' => '0',
@@ -112,7 +101,7 @@ function configdump_table_field_data_field_ns_prod_entrpr_lead() {
         'field_ns_prod_entrpr_lead_value' => 'Free as in freedom!',
         'field_ns_prod_entrpr_lead_format' => NULL,
       ),
-      10 => (object) array(
+      9 => (object) array(
         'entity_type' => 'node',
         'bundle' => 'ns_prod_enterprise_service',
         'deleted' => '0',
@@ -123,7 +112,7 @@ function configdump_table_field_data_field_ns_prod_entrpr_lead() {
         'field_ns_prod_entrpr_lead_value' => 'Get them delived to your door!',
         'field_ns_prod_entrpr_lead_format' => NULL,
       ),
-      11 => (object) array(
+      10 => (object) array(
         'entity_type' => 'node',
         'bundle' => 'ns_prod_enterprise_section',
         'deleted' => '0',
@@ -134,18 +123,7 @@ function configdump_table_field_data_field_ns_prod_entrpr_lead() {
         'field_ns_prod_entrpr_lead_value' => 'This is a customizable section that lists services.',
         'field_ns_prod_entrpr_lead_format' => NULL,
       ),
-      12 => (object) array(
-        'entity_type' => 'node',
-        'bundle' => 'ns_prod_enterprise_section',
-        'deleted' => '0',
-        'entity_id' => '25',
-        'revision_id' => '57',
-        'language' => 'en',
-        'delta' => '0',
-        'field_ns_prod_entrpr_lead_value' => 'Here\'s a list of interesting people at our company.',
-        'field_ns_prod_entrpr_lead_format' => NULL,
-      ),
-      13 => (object) array(
+      11 => (object) array(
         'entity_type' => 'user',
         'bundle' => 'user',
         'deleted' => '0',
@@ -156,7 +134,7 @@ function configdump_table_field_data_field_ns_prod_entrpr_lead() {
         'field_ns_prod_entrpr_lead_value' => 'Our awesome admin!',
         'field_ns_prod_entrpr_lead_format' => NULL,
       ),
-      14 => (object) array(
+      12 => (object) array(
         'entity_type' => 'user',
         'bundle' => 'user',
         'deleted' => '0',
@@ -167,7 +145,7 @@ function configdump_table_field_data_field_ns_prod_entrpr_lead() {
         'field_ns_prod_entrpr_lead_value' => 'Quisque quis enim aliquam arcu dapibus congue eu id risus.',
         'field_ns_prod_entrpr_lead_format' => NULL,
       ),
-      15 => (object) array(
+      13 => (object) array(
         'entity_type' => 'user',
         'bundle' => 'user',
         'deleted' => '0',
@@ -179,7 +157,7 @@ function configdump_table_field_data_field_ns_prod_entrpr_lead() {
 ',
         'field_ns_prod_entrpr_lead_format' => NULL,
       ),
-      16 => (object) array(
+      14 => (object) array(
         'entity_type' => 'user',
         'bundle' => 'user',
         'deleted' => '0',

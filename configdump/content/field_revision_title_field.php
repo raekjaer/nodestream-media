@@ -378,17 +378,6 @@ function configdump_table_field_revision_title_field() {
       ),
       34 => (object) array(
         'entity_type' => 'node',
-        'bundle' => 'ns_prod_enterprise_section',
-        'deleted' => '0',
-        'entity_id' => '20',
-        'revision_id' => '48',
-        'language' => 'en',
-        'delta' => '0',
-        'title_field_value' => 'Contact',
-        'title_field_format' => NULL,
-      ),
-      35 => (object) array(
-        'entity_type' => 'node',
         'bundle' => 'ns_prod_enterprise_service',
         'deleted' => '0',
         'entity_id' => '21',
@@ -398,7 +387,7 @@ function configdump_table_field_revision_title_field() {
         'title_field_value' => 'Drupal love',
         'title_field_format' => NULL,
       ),
-      36 => (object) array(
+      35 => (object) array(
         'entity_type' => 'node',
         'bundle' => 'ns_prod_enterprise_service',
         'deleted' => '0',
@@ -409,7 +398,7 @@ function configdump_table_field_revision_title_field() {
         'title_field_value' => 'Free software',
         'title_field_format' => NULL,
       ),
-      37 => (object) array(
+      36 => (object) array(
         'entity_type' => 'node',
         'bundle' => 'ns_prod_enterprise_service',
         'deleted' => '0',
@@ -420,7 +409,7 @@ function configdump_table_field_revision_title_field() {
         'title_field_value' => 'Adorable kittens',
         'title_field_format' => NULL,
       ),
-      38 => (object) array(
+      37 => (object) array(
         'entity_type' => 'node',
         'bundle' => 'ns_prod_enterprise_section',
         'deleted' => '0',
@@ -431,7 +420,7 @@ function configdump_table_field_revision_title_field() {
         'title_field_value' => 'Services',
         'title_field_format' => NULL,
       ),
-      39 => (object) array(
+      38 => (object) array(
         'entity_type' => 'node',
         'bundle' => 'ns_prod_enterprise_section',
         'deleted' => '0',
@@ -440,28 +429,6 @@ function configdump_table_field_revision_title_field() {
         'language' => 'en',
         'delta' => '0',
         'title_field_value' => 'Services',
-        'title_field_format' => NULL,
-      ),
-      40 => (object) array(
-        'entity_type' => 'node',
-        'bundle' => 'ns_prod_enterprise_section',
-        'deleted' => '0',
-        'entity_id' => '25',
-        'revision_id' => '56',
-        'language' => 'en',
-        'delta' => '0',
-        'title_field_value' => 'People',
-        'title_field_format' => NULL,
-      ),
-      41 => (object) array(
-        'entity_type' => 'node',
-        'bundle' => 'ns_prod_enterprise_section',
-        'deleted' => '0',
-        'entity_id' => '25',
-        'revision_id' => '57',
-        'language' => 'en',
-        'delta' => '0',
-        'title_field_value' => 'People',
         'title_field_format' => NULL,
       ),
     ),

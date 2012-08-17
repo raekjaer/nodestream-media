@@ -163,38 +163,6 @@ function configdump_table_panels_display() {
         'title_pane' => '0',
       ),
       5 => (object) array(
-        'did' => '7',
-        'layout' => 'ns_core_column_two',
-        'layout_settings' => array(),
-        'panel_settings' => array(
-          'style_settings' => array(
-            'center' => NULL,
-            'header_alpha' => array(),
-            'main' => array(),
-            'aside_beta' => array(),
-            'footer_alpha' => array(),
-            'default' => NULL,
-          ),
-          'style' => 'naked',
-          'header_alpha' => array(
-            'style' => 'semantic_panels',
-          ),
-          'main' => array(
-            'style' => 'semantic_panels',
-          ),
-          'aside_beta' => array(
-            'style' => 'semantic_panels',
-          ),
-          'footer_alpha' => array(
-            'style' => 'semantic_panels',
-          ),
-        ),
-        'cache' => array(),
-        'title' => '',
-        'hide_title' => '0',
-        'title_pane' => '0',
-      ),
-      6 => (object) array(
         'did' => '8',
         'layout' => 'ns_core_site_template',
         'layout_settings' => array(),
@@ -214,40 +182,8 @@ function configdump_table_panels_display() {
         'hide_title' => '0',
         'title_pane' => '0',
       ),
-      7 => (object) array(
+      6 => (object) array(
         'did' => '9',
-        'layout' => 'ns_core_column_two',
-        'layout_settings' => array(),
-        'panel_settings' => array(
-          'style_settings' => array(
-            'center' => NULL,
-            'header_alpha' => array(),
-            'main' => array(),
-            'aside_beta' => array(),
-            'footer_alpha' => array(),
-            'default' => NULL,
-          ),
-          'style' => 'naked',
-          'header_alpha' => array(
-            'style' => 'semantic_panels',
-          ),
-          'main' => array(
-            'style' => 'semantic_panels',
-          ),
-          'aside_beta' => array(
-            'style' => 'semantic_panels',
-          ),
-          'footer_alpha' => array(
-            'style' => 'semantic_panels',
-          ),
-        ),
-        'cache' => array(),
-        'title' => '',
-        'hide_title' => '0',
-        'title_pane' => '0',
-      ),
-      8 => (object) array(
-        'did' => '10',
         'layout' => 'ns_core_column_two',
         'layout_settings' => array(),
         'panel_settings' => array(

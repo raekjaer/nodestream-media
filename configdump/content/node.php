@@ -307,22 +307,6 @@ function configdump_table_node() {
         'translate' => '0',
       ),
       19 => (object) array(
-        'nid' => '20',
-        'vid' => '48',
-        'type' => 'ns_prod_enterprise_section',
-        'language' => 'en',
-        'title' => 'Contact',
-        'uid' => '1',
-        'status' => '1',
-        'created' => '1345043700',
-        'changed' => '1345043776',
-        'comment' => '0',
-        'promote' => '0',
-        'sticky' => '0',
-        'tnid' => '0',
-        'translate' => '0',
-      ),
-      20 => (object) array(
         'nid' => '21',
         'vid' => '50',
         'type' => 'ns_prod_enterprise_service',
@@ -338,7 +322,7 @@ function configdump_table_node() {
         'tnid' => '0',
         'translate' => '0',
       ),
-      21 => (object) array(
+      20 => (object) array(
         'nid' => '22',
         'vid' => '51',
         'type' => 'ns_prod_enterprise_service',
@@ -354,7 +338,7 @@ function configdump_table_node() {
         'tnid' => '0',
         'translate' => '0',
       ),
-      22 => (object) array(
+      21 => (object) array(
         'nid' => '23',
         'vid' => '52',
         'type' => 'ns_prod_enterprise_service',
@@ -370,7 +354,7 @@ function configdump_table_node() {
         'tnid' => '0',
         'translate' => '0',
       ),
-      23 => (object) array(
+      22 => (object) array(
         'nid' => '24',
         'vid' => '54',
         'type' => 'ns_prod_enterprise_section',
@@ -380,22 +364,6 @@ function configdump_table_node() {
         'status' => '1',
         'created' => '1345045694',
         'changed' => '1345045869',
-        'comment' => '0',
-        'promote' => '0',
-        'sticky' => '0',
-        'tnid' => '0',
-        'translate' => '0',
-      ),
-      24 => (object) array(
-        'nid' => '25',
-        'vid' => '57',
-        'type' => 'ns_prod_enterprise_section',
-        'language' => 'en',
-        'title' => 'People',
-        'uid' => '1',
-        'status' => '1',
-        'created' => '1345046614',
-        'changed' => '1345047127',
         'comment' => '0',
         'promote' => '0',
         'sticky' => '0',
