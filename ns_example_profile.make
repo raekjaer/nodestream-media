@@ -12,10 +12,9 @@ projects[ns_prod_enterprise][version] = 2.x-dev
 projects[ns_prod_enterprise][download][type] = git
 projects[ns_prod_enterprise][download][branch] = master
 
-projects[configdump][type] = module
-projects[configdump][version] = 1.x-dev
-projects[configdump][download][type] = git
-projects[configdump][download][revision] = d667f10
-projects[configdump][download][url] = http://git.drupal.org/sandbox/fabsor/1558212.git
+projects[dumpling][type] = module
+projects[dumpling][version] = 1.x-dev
+projects[dumpling][download][type] = git
+projects[dumpling][download][revision] = 59dc2a9
 
 
