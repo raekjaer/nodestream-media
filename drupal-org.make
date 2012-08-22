@@ -1,5 +1,5 @@
 api = 2
-core = 7.x
+core = 7.15
 
 projects[ns_core][type] = module
 projects[ns_core][version] = 2.x-dev
