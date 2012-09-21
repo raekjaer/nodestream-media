@@ -5,6 +5,7 @@ projects[ns_core][type] = module
 projects[ns_core][version] = 2.x-dev
 projects[ns_core][download][type] = git
 projects[ns_core][download][branch] = 7.x-2.x
+projects[ns_core][subdir] = contrib
 
 ; Latest NodeStream enterprise.
 projects[ns_prod_enterprise][type] = module
