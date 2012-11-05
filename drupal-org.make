@@ -20,4 +20,8 @@ projects[dumpling][download][type] = git
 projects[dumpling][download][revision] = 59dc2a9
 projects[dumpling][subdir] = contrib
 
-
+projects[apps][type] = module
+projects[apps][version] = 1.0-beta7
+projects[apps][download][type] = git
+projects[apps][download][tag] = 7.x-1.0-beta7
+projects[apps][subdir] = contrib
